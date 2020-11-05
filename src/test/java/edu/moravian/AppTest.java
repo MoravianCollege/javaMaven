@@ -24,4 +24,11 @@ public class AppTest
     {
         assertEquals(42, 15 + 27);
     }
+
+    @Test
+    public void testTruth()
+    {
+        assertEquals(true, true);
+    }
+
 }
