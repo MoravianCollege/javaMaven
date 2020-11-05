@@ -22,6 +22,6 @@ public class AppTest
     @Test
     public void brilliantMath()
     {
-        assertEquals(5, 2 + 3);
+        assertEquals(42, 15 + 27);
     }
 }
