@@ -1,5 +1,6 @@
 package edu.moravian;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -19,8 +20,15 @@ public class AppTest
     }
 
     @Test
-    public void intentionalFail()
+    public void brilliantMath()
     {
-        assertTrue(false);
+        assertEquals(42, 15 + 27);
     }
+
+    @Test
+    public void testTruth()
+    {
+        assertEquals(true, true);
+    }
+
 }
